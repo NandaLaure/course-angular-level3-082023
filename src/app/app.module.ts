@@ -12,6 +12,7 @@ import { ArticleComponent } from './blog/article/article.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { BgSizePipe } from './pipes/bg-size.pipe';
 import { WordPipe } from './pipes/word.pipe';
+import { RoadComponent } from './road/road.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WordPipe } from './pipes/word.pipe';
     ArticleComponent,
     HighlightDirective,
     BgSizePipe,
-    WordPipe
+    WordPipe,
+    RoadComponent
   ],
   imports: [
     BrowserModule,
